@@ -1,0 +1,97 @@
+<div class="columns">
+  <div class="column is-three-fifths is-offset-one-fifth">
+    <br><br>
+    <h1 class="title"> Create a new Pattern </h1>
+    <h1 class="subtitle"> If you dont know hot create a new one plase visit this link </h1>
+    <br>
+
+    <form action="/pattern/create" method= "POST">
+    <div class="field">
+      <label class="label is-medium"">Name</label>
+      <div class="control has-icons-left has-icons-right">
+        <input class="input is-medium" name="name" type="text" placeholder="Text input">
+        <span class="icon is-small is-left">
+          <i class="fas fa-user"></i>
+        </span>
+        <span class="icon is-small is-right">
+          <i class="fas fa-check"></i>
+        </span>
+      </div>
+    </div><br>
+
+    <div class="field">
+      <label class="label is-medium"">Problem</label>
+      <div class="control has-icons-left has-icons-right">
+        <input class="input is-medium" name="problem" type="text" placeholder="Text input">
+        <span class="icon is-small is-left">
+          <i class="fas fa-user"></i>
+        </span>
+        <span class="icon is-small is-right">
+          <i class="fas fa-check"></i>
+        </span>
+      </div>
+    </div>
+
+    <div class="field">
+      <label class="label is-medium">Body</label>
+      <div class="control">
+        <textarea class="textarea is-medium" name="body" type= "text" placeholder="Description"></textarea>
+      </div>
+    </div>
+
+    <div class="field">
+      <label class="label is-medium"">Solution</label>
+      <div class="control has-icons-left has-icons-right">
+        <input class="input is-medium" name = "solution" type="text" placeholder="Text input">
+        <span class="icon is-small is-left">
+          <i class="fas fa-user"></i>
+        </span>
+        <span class="icon is-small is-right">
+          <i class="fas fa-check"></i>
+        </span>
+      </div>
+    </div><br>
+
+
+    <div class="field">
+      <label class="label is-medium"">Type</label>
+      <div class="control">
+        <div class="select">
+          <select name = "scale">
+            <option>Town</option>
+            <option>Building</option>
+            <option>Construction</option>
+          </select>
+        </div>
+      </div>
+
+
+      <br>
+
+      <div class="field">
+          <label class="label is-medium"">Rating</label>
+              <div class="control">
+                <div class="select">
+              <select name ="faith">
+                <option>One Star</option>
+                <option>Two Stars</option>
+                <option>Three Stars</option>
+              </select>
+                </div>
+          </div>  
+    </div>
+    <br>
+
+    
+
+    <div class="field is-grouped">
+      <div class="control">
+        <button type="submit" class="button is-link">Submit</button>
+      </div>
+      <div class="control">
+        <button class="button is-text">Cancel</button>
+      </div>
+    </div>
+  </div>
+  <form>
+</div>
